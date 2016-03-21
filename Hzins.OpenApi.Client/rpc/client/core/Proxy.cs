@@ -3,6 +3,7 @@ using com.hzins.openapi.client;
 using com.hzins.rpc.client.utils;
 using Newtonsoft.Json;
 using System;
+using System.Diagnostics;
 using System.IO;
 using System.Net;
 using System.Reflection;
@@ -55,8 +56,13 @@ namespace com.hzins.rpc.client.core
             invocation.ReturnValue = convert2entity(response, returnType);
 
         }
-
-        public string remoteInvoke(string api, object obj)
+        /// <summary>
+        /// 远程方法调用
+        /// </summary>
+        /// <param name="api"></param>
+        /// <param name="obj"></param>
+        /// <returns></returns>
+        private string remoteInvoke(string api, object obj)
         {
             string param = convert2json(obj);
             api = sign(api, param);
@@ -95,21 +101,30 @@ namespace com.hzins.rpc.client.core
         /// <returns></returns>
         private static string sign(string api, string param)
         {
-            Console.WriteLine(param);
+            Debug.WriteLine("json "+param);
             string sign = Md5.encrypt(Configure.Channel.channelKey + param);
             api = api + "?sign=" + sign;
             return api;
         }
-
-        public string convert2json(object obj)
+        /// <summary>
+        /// 对象转json字符串
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns></returns>
+        private string convert2json(object obj)
         {
             return JsonConvert.SerializeObject(obj);
         }
 
-
-        public object convert2entity(string json, Type type)
+        /// <summary>
+        /// json转对象
+        /// </summary>
+        /// <param name="json"></param>
+        /// <param name="type"></param>
+        /// <returns></returns>
+        private object convert2entity(string json, Type type)
         {
-            Console.WriteLine(json);
+            Debug.WriteLine("json : "+json);
             JsonSerializerSettings jsetting = new JsonSerializerSettings();
             jsetting.NullValueHandling = NullValueHandling.Ignore;
             return JsonConvert.DeserializeObject(json, type,jsetting);

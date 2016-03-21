@@ -1254,21 +1254,52 @@
             
             </p>
         </member>
+        <member name="T:com.hzins.openapi.client.Configure.Channel">
+            <summary>
+            渠道配置信息
+            </summary>
+        </member>
         <member name="F:com.hzins.openapi.client.Configure.Channel.partnerId">
             22803
+            <summary>
+            渠道号
+            </summary>
         </member>
         <member name="F:com.hzins.openapi.client.Configure.Channel.channelKey">
             22803^*#%
+            <summary>
+            渠道密钥
+            </summary>
+        </member>
+        <member name="T:com.hzins.openapi.client.Configure.Request">
+            <summary>
+            请求配置
+            </summary>
+        </member>
+        <member name="F:com.hzins.openapi.client.Configure.Request.baseUrl">
+            <summary>
+            请求前缀，默认可用
+            </summary>
         </member>
         <member name="F:com.hzins.openapi.client.Configure.Request.http_connection_timeout">
-             ms为单位
+            <summary>
+             连接超时时间 ms为单位
+            </summary>
         </member>
         <member name="F:com.hzins.openapi.client.Configure.Request.http_read_timeout">
-             默认为0，系统默认超时时间，根据操作系统而定
-             ms为单位
+            <summary>
+            读取相应超时时间 ms为单位 默认为0，系统默认超时时间，根据操作系统而定
+            </summary>
         </member>
         <member name="F:com.hzins.openapi.client.Configure.Request.userAgent">
-             默认为0，系统默认超时时间，根据操作系统而定
+            <summary>
+            userAgent
+            </summary>
+        </member>
+        <member name="F:com.hzins.openapi.client.Configure.Request.contentType">
+            <summary>
+            contentType
+            </summary>
         </member>
         <member name="T:com.hzins.openapi.client.OpenApiRemoteOperation">
             <p>
@@ -1454,12 +1485,35 @@
             </summary>
             <param name="command"></param>
         </member>
+        <member name="M:com.hzins.rpc.client.core.Proxy.remoteInvoke(System.String,System.Object)">
+            <summary>
+            远程方法调用
+            </summary>
+            <param name="api"></param>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
         <member name="M:com.hzins.rpc.client.core.Proxy.sign(System.String,System.String)">
             <summary>
             签名
             </summary>
             <param name="api"></param>
             <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:com.hzins.rpc.client.core.Proxy.convert2json(System.Object)">
+            <summary>
+            对象转json字符串
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:com.hzins.rpc.client.core.Proxy.convert2entity(System.String,System.Type)">
+            <summary>
+            json转对象
+            </summary>
+            <param name="json"></param>
+            <param name="type"></param>
             <returns></returns>
         </member>
         <member name="T:com.hzins.rpc.client.core.ProxyFactory">
