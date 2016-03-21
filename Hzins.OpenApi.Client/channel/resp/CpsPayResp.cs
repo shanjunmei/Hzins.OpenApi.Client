@@ -16,8 +16,8 @@ namespace com.hzins.channel.api.model.resp
    /// 异步投保 在线CPS页面支付
    /// 返回的实体（含支付链接）
    /// </p>
-   public class CpsPayResp : java.io.Serializable
-   {
+   public class CpsPayResp
+    {
       public const long serialVersionUID = -710272183659427282L;
       public String transNo;
       public String insureNum;

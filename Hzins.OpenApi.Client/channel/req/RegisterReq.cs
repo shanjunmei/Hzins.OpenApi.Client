@@ -15,7 +15,7 @@ namespace com.hzins.channel.api.model.req
    /// <p>
    /// 
    /// </p>
-   public class RegisterReq : SubUserBaseReq, java.io.Serializable
+   public class RegisterReq : SubUserBaseReq
    {
       public const long serialVersionUID = 7431287304382522749L;
       ///  渠道类型 0：个人 1：公司 (必填)
