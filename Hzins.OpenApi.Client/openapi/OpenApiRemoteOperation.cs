@@ -8,6 +8,7 @@
  *  
  */
 
+using System;
 using com.hzins.channel.api.model.common;
 using com.hzins.channel.api.model.info;
 using com.hzins.channel.api.model.req;
@@ -16,172 +17,172 @@ using com.hzins.channel.api.model.resp;
 
 namespace com.hzins.openapi.client
 {
-    /// <p>
-    /// 
-    /// 远程方法接口声明
-    /// 
-    /// </p>
-    public interface OpenApiRemoteOperation
+   /// <summary>
+   /// 
+   /// 远程方法接口声明
+   /// 
+   /// </summary>
+   public interface OpenApiRemoteOperation
    {
-      /// <p>
+      /// <summary>
       /// 
       /// 产品列表
       /// 
-      /// </p>
+      /// </summary>
       CommonResult<ProductListResp> productList(ref ProductListReq req);
 
-      /// <p>
+      /// <summary>
       /// 
       /// 产品详情
       /// 
-      /// </p>
+      /// </summary>
       CommonResult<ProductDetailResp> productDetail(ref ProductDetailReq req);
 
-      /// <p>
+      /// <summary>
       /// 
       /// 投保
       /// 
-      /// </p>
+      /// </summary>
       CommonResult<OrderApplyResp> orderApply(ref OrderApplyReq req);
 
-      /// <p>
+      /// <summary>
       /// 
       /// 退保
       /// 
-      /// </p>
+      /// </summary>
       CommonResult<OrderCancelResp> orderCancel(ref OrderCancelReq req);
 
-      /// <p>
+      /// <summary>
       /// 
       /// 保单下载
       /// 
-      /// </p>
+      /// </summary>
       CommonResult<InsureDownloadResp> download(ref InsureDownloadReq req);
 
-      /// <p>
+      /// <summary>
       /// 
       /// CPS支付
       /// 
-      /// </p>
+      /// </summary>
       CommonResult<CpsPayResp> cpsPay(ref CpsPayReq req);
 
-      /// <p>
+      /// <summary>
       /// 
       /// 8.API支付
       /// 
-      /// </p>
+      /// </summary>
       CommonResult<PrePayResp> prePay(ref PrePayReq req);
 
-      /// <p>
+      /// <summary>
       /// 
       /// APP支付
       /// 
-      /// </p>
+      /// </summary>
       CommonResult<AppPrePayResp> appPrePay(ref AppPrePayReq req);
 
-      /// <p>
+      /// <summary>
       /// 
       /// 渠道注册
       /// 
-      /// </p>
+      /// </summary>
       CommonResult<RegisterResp> register(ref RegisterReq req);
 
-      /// <p>
+      /// <summary>
       /// 
       /// 投保单查询
       /// 
-      /// </p>
+      /// </summary>
       CommonResult<SearchInsureResp> orderDetail(ref OrderDetailReq req);
 
-      /// <p>
+      /// <summary>
       /// 
       /// 批量查询保单（分页）
       /// 
-      /// </p>
+      /// </summary>
       CommonResult<SearchInsureResp> orderSearch(ref OrderSearchReq req);
 
-      /// <p>
+      /// <summary>
       /// 
       /// 投保单详情
       /// 
-      /// </p>
+      /// </summary>
       CommonResult<InsureDetailResp> insureDetail(ref InsureDetailReq req);
 
-      /// <p>
+      /// <summary>
       /// 
       /// 服务费结算
       /// 
-      /// </p>
+      /// </summary>
       CommonResult<FinancialInfo> submitSettlement(ref SettlementReq req);
 
-      /// <p>
+      /// <summary>
       /// 
       /// 服务费明细
       /// 
-      /// </p>
+      /// </summary>
       CommonResult<SettlementDetailResp> settlementDetail(ref SettlementDetailReq req);
 
-      /// <p>
+      /// <summary>
       /// 
       /// 结算申请明细
       /// 
-      /// </p>
+      /// </summary>
       CommonResult<SettlementBillDetailResp> settlementBillDetail(ref SettlementBillDetailReq req);
 
-      /// <p>
+      /// <summary>
       /// 
       /// 结算申请汇总
       /// 
-      /// </p>
+      /// </summary>
       CommonResult<SettlementBillTotalResp> settlementBillTotal(ref SettlementBillTotalReq req);
 
-      /// <p>
+      /// <summary>
       /// 
       /// 服务费按月汇总
       /// 
-      /// </p>
+      /// </summary>
       CommonResult<IncomeDetailResp> incomeDetail(ref IncomeDetailReq req);
 
-      /// <p>
+      /// <summary>
       /// 
       /// 支付，返回html
       /// 
-      /// </p>
+      /// </summary>
       CommonResult<PayResp> pay(ref PrePayReq req);
 
-      /// <p>
+      /// <summary>
       /// 
       /// 车险预投保
       /// 
-      /// </p>
+      /// </summary>
       CommonResult<CarPreInsureResp> carPreInsure(ref CarPreInsureReq req);
 
-      /// <p>
+      /// <summary>
       /// 
       /// 车险预支付
       /// 
-      /// </p>
+      /// </summary>
       CommonResult<CarPrePayResp> carPrePay(ref CarPrePayReq req);
 
-      /// <p>
+      /// <summary>
       /// 
       /// 车险订单查询
       /// 
-      /// </p>
+      /// </summary>
       CommonResult<CarInsureDetailResp> carInsureDetail(ref CarInsureDetailReq req);
 
-      /// <p>
+      /// <summary>
       /// 
       /// cps 预投保
       /// 
-      /// </p>
+      /// </summary>
       CommonResult<CpsPreInsureResp> cpsPreInsure(ref CpsPreInsureReq req);
 
-      /// <p>
+      /// <summary>
       /// 
       /// cps投保单详情
       /// 
-      /// </p>
+      /// </summary>
       CommonResult<ApiPartnerInsureResp> partnerInsureDetail(ref ApiPartnerInsureReq req);
 
    }
