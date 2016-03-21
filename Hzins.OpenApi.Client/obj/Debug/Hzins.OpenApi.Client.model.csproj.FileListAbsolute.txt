@@ -1,4 +1,0 @@
-C:\Users\hz15101769\documents\visual studio 2015\Projects\Hzins.OpenApi.Client\Hzins.OpenApi.Client\bin\Debug\Hzins.OpenApi.Client.dll
-C:\Users\hz15101769\documents\visual studio 2015\Projects\Hzins.OpenApi.Client\Hzins.OpenApi.Client\bin\Debug\Hzins.OpenApi.Client.pdb
-C:\Users\hz15101769\documents\visual studio 2015\Projects\Hzins.OpenApi.Client\Hzins.OpenApi.Client\obj\Debug\Hzins.OpenApi.Client.dll
-C:\Users\hz15101769\documents\visual studio 2015\Projects\Hzins.OpenApi.Client\Hzins.OpenApi.Client\obj\Debug\Hzins.OpenApi.Client.pdb
