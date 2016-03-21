@@ -37,46 +37,6 @@ namespace com.hzins.channel.api.model.info
       public String jobInfo;
       /// 国籍
       public String country;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

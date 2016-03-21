@@ -21,10 +21,6 @@ namespace com.hzins.channel.api.model.resp
    {
       /// 产品详情地址
       public String detailUrl;
-      
-      
-      
-      
-   
+
    }
 }

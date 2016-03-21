@@ -12,7 +12,6 @@ using System;
 using System.Collections.Generic;
 using com.hzins.channel.api.model.info;
 
-
 namespace com.hzins.channel.api.model.resp
 {
    /// <p>
@@ -27,26 +26,6 @@ namespace com.hzins.channel.api.model.resp
       public String insureNum;
       ///  保单信息
       public List<OrderInfo> orderInfos;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

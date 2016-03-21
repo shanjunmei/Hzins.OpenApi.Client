@@ -22,10 +22,6 @@ namespace com.hzins.channel.api.model.resp
    public class ApiPartnerInsureResp : BaseResp
    {
       public List<ApiPartnerInsureInfo> apiPartnerInsureInfos;
-      
-      
-      
-      
-   
+
    }
 }

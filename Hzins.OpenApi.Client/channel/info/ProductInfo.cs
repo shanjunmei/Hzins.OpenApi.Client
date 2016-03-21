@@ -23,30 +23,6 @@ namespace com.hzins.channel.api.model.info
       public String companyName;
       public int planId;
       public String planName;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

@@ -29,31 +29,7 @@ namespace com.hzins.channel.api.model.resp
       ///     public int pageIndex;
       /// 服务费明细信息
       public List<SettlementDetailInfo> settlementDetailList;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }
 

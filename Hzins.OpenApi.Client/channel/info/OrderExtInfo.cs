@@ -28,26 +28,6 @@ namespace com.hzins.channel.api.model.info
       /// 本单总价
       public decimal priceTotal;
       public Dictionary<String, String> insurantDictionary;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

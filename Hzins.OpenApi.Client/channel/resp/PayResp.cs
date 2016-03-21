@@ -22,26 +22,6 @@ namespace com.hzins.channel.api.model.resp
       public String insureNum;
       public String content;
       public String bsId;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

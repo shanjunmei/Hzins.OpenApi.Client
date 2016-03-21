@@ -26,30 +26,6 @@ namespace com.hzins.channel.api.model.info
       public decimal totalIncome;
       /// 总计保费
       public decimal premium;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

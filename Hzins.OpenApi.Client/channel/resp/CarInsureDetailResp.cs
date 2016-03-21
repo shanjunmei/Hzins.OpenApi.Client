@@ -11,7 +11,6 @@
 using System;
 using com.hzins.channel.api.model.info;
 
-
 namespace com.hzins.channel.api.model.resp
 {
    /// <p>
@@ -25,14 +24,6 @@ namespace com.hzins.channel.api.model.resp
       public com.hzins.channel.api.model.info.CarInfo carInfo;
       /// 投保单信息
       public com.hzins.channel.api.model.info.CarInsureInfo insure;
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

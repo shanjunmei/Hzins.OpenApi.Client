@@ -10,11 +10,6 @@
 
 using System;
 
-
-
-
-
-
 namespace com.hzins.channel.api.model.info
 {
    /// <p>
@@ -35,8 +30,8 @@ namespace com.hzins.channel.api.model.info
       /// 发动机号
       public String engineNum;
       /// 注册日期
-      
-      
+      [Newtonsoft.Json.JsonConverter(typeof(Hzins.OpenApi.Client.rpc.client.utils.DateTimeConverter))]
+
       public DateTime registerTime;
       /// 是否过户车辆（0：否，1：是）
       public byte isTransfer;
@@ -59,77 +54,9 @@ namespace com.hzins.channel.api.model.info
       /// 排量
       public float power;
       /// 过户时间
-      
-      
+      [Newtonsoft.Json.JsonConverter(typeof(Hzins.OpenApi.Client.rpc.client.utils.DateTimeConverter))]
+
       public DateTime transferTime;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

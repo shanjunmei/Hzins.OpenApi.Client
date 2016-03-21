@@ -21,14 +21,6 @@ namespace com.hzins.channel.api.model.req
       public int productId;
       ///  产品计划Id
       public int planId;
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

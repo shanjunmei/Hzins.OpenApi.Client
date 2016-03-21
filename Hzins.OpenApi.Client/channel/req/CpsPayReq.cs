@@ -25,22 +25,6 @@ namespace com.hzins.channel.api.model.req
       public String backUrl;
       ///  投保单号，兼容orderNum，为了统一，以后客户统一使用InsureNum
       public String insureNum;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

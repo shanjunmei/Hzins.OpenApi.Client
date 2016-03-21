@@ -25,22 +25,6 @@ namespace com.hzins.channel.api.model
       public String endDate;
       ///  结算价，即相应保险产品的保费
       public decimal singlePrice;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

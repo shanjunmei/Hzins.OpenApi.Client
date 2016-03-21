@@ -30,41 +30,11 @@ namespace com.hzins.channel.api.model.info
       public bool sex;
       /// 受益人比率
       public decimal proportion;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+
       public bool isSex()
       {
           return sex;
       }
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

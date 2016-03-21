@@ -27,26 +27,6 @@ namespace com.hzins.channel.api.model.info
       public decimal settlementPrice;
       /// 保障项目
       public String insureProject;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

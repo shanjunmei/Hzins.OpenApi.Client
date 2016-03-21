@@ -21,14 +21,6 @@ namespace com.hzins.channel.api.model.req
       public String startTime;
       ///  查询的申请结算结束时间
       public String endTime;
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

@@ -22,22 +22,6 @@ namespace com.hzins.channel.api.model.info
       public String email;
       public String userName;
       public String phone;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

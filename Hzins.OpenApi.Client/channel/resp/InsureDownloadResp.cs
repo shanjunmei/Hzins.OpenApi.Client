@@ -17,26 +17,7 @@ namespace com.hzins.channel.api.model.resp
    /// </p>
    public class InsureDownloadResp
    {
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+
       ///  文件名
       public String fileName;
       ///  文件大小
@@ -47,6 +28,6 @@ namespace com.hzins.channel.api.model.resp
       public String data;
       /// 流水号
       public String transNo;
-   
+
    }
 }

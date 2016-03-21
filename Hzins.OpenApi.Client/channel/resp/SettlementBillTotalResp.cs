@@ -25,26 +25,6 @@ namespace com.hzins.channel.api.model.resp
       public decimal unPayed;
       /// 当前可结算(不会根据时间条件查询)
       public decimal allowPayed;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

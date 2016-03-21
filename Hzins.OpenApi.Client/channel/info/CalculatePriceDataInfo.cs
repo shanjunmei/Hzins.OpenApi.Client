@@ -27,26 +27,6 @@ namespace com.hzins.channel.api.model.info
       public int insuranceUnit;
       /// 保险金额
       public decimal insuranceAmount;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

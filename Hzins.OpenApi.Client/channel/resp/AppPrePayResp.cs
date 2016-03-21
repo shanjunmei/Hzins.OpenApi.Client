@@ -23,22 +23,6 @@ namespace com.hzins.channel.api.model.resp
       public String insureNum;
       ///  调用支付的参数串
       public String gatewayData;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

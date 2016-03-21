@@ -23,14 +23,6 @@ namespace com.hzins.channel.api.model.req
       public String platform;
       ///  渠道唯一用户标识
       public String partnerUniqueKey;
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

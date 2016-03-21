@@ -24,18 +24,6 @@ namespace com.hzins.channel.api.model.req
       public int year;
       ///  月份
       public int month;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

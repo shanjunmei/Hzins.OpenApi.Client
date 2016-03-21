@@ -21,14 +21,6 @@ namespace com.hzins.channel.api.model
    {
       public String name;
       public String text;
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

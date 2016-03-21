@@ -34,38 +34,6 @@ namespace com.hzins.channel.api.model.req
       public String idCard;
       ///  多个投保单号
       public List<String> insureNums;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

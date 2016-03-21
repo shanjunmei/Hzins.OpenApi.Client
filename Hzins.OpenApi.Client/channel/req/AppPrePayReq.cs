@@ -28,30 +28,6 @@ namespace com.hzins.channel.api.model.req
       ///  IP地址
       public String ip;
       public String insureNum;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

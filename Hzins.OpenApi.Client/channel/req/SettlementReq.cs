@@ -19,10 +19,6 @@ namespace com.hzins.channel.api.model.req
    public class SettlementReq : SubUserBaseReq
    {
       public com.hzins.channel.api.model.info.FinancialInfo financialInfo;
-      
-      
-      
-      
-   
+
    }
 }

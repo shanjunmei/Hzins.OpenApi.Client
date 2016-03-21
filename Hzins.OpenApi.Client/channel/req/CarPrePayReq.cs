@@ -23,14 +23,6 @@ namespace com.hzins.channel.api.model.req
       public String platform;
       ///  投保单号
       public String insureNum;
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

@@ -12,8 +12,6 @@ using System;
 using System.Collections.Generic;
 using com.hzins.channel.api.model.info;
 
-
-
 namespace com.hzins.channel.api.model.resp
 {
    /// <p>
@@ -41,46 +39,6 @@ namespace com.hzins.channel.api.model.resp
       public int partnerId;
       /// 投保单号
       public String insureNum;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

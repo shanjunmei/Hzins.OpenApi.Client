@@ -26,18 +26,6 @@ namespace com.hzins.channel.api.model.info
       public String insureNo;
       /// 订单详情
       public List<OrderDetailInfo> orderDetailInfos;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

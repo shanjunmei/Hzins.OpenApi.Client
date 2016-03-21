@@ -22,18 +22,6 @@ namespace com.hzins.channel.api.model.resp
       public String transNo;
       public int partnerId;
       public List<IncomeDetailInfo> incomeDetailInfos;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

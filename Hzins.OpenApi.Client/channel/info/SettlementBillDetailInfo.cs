@@ -37,46 +37,6 @@ namespace com.hzins.channel.api.model.info
       public decimal payFee;
       /// 结算状态(0未结算，1表示已结算)
       public int state;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

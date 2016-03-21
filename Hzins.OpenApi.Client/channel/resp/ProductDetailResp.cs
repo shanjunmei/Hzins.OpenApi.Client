@@ -24,30 +24,6 @@ namespace com.hzins.channel.api.model.resp
       public List<PlanDetail> planDetails;
       ///     public List<Dictionary<String, String>> planParams;
       public decimal price;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

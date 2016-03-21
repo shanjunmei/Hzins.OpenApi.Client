@@ -21,14 +21,6 @@ namespace com.hzins.channel.api.model.resp
       public String transNo;
       ///  代理商编号
       public int partnerId;
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

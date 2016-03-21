@@ -26,26 +26,6 @@ namespace com.hzins.channel.api.model.req
       public int pageNum;
       ///  每页显示数据
       public int pageSize;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

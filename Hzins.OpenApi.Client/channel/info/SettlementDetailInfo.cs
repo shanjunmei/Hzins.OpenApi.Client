@@ -24,34 +24,6 @@ namespace com.hzins.channel.api.model.info
       public decimal originalPrice;
       public decimal price;
       public decimal income;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

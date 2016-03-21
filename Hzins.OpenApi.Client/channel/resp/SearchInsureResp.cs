@@ -25,18 +25,6 @@ namespace com.hzins.channel.api.model.resp
       public String transNo;
       /// 保单列表
       public List<OrderDetailInfo> orderDetailInfos;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

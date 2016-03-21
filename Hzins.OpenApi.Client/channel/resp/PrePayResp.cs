@@ -22,22 +22,6 @@ namespace com.hzins.channel.api.model.resp
       public String orderNum;
       public String insureNum;
       public com.hzins.channel.api.model.PrePayParam prePayParam;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

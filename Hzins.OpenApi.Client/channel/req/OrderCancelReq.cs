@@ -22,18 +22,6 @@ namespace com.hzins.channel.api.model.req
       public String insureNum;
       ///  扩展信息
       public com.hzins.channel.api.model.info.ExtendInfo extendInfo;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

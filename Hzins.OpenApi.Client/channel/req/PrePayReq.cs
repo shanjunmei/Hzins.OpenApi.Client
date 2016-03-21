@@ -31,34 +31,6 @@ namespace com.hzins.channel.api.model.req
       public String price;
       ///  投保单号，兼容orderNum
       public String insureNum;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

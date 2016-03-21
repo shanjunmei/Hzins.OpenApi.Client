@@ -13,11 +13,6 @@ using System.Collections.Generic;
 using com.hzins.channel.api.model;
 using com.hzins.channel.api.model.info;
 
-
-
-
-
-
 namespace com.hzins.channel.api.model.req
 {
    /// <p>
@@ -43,42 +38,6 @@ namespace com.hzins.channel.api.model.req
       public com.hzins.channel.api.model.info.CalculatePriceDataInfo calculatePriceDataInfo;
       ///  投保类型 默认为0， 1：节假日不投保 2：节假日投保 3：一年一次 4：一年多次
       public int insureType;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

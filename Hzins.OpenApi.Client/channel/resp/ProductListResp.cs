@@ -20,10 +20,6 @@ namespace com.hzins.channel.api.model.resp
    public class ProductListResp : BaseResp
    {
       public List<ProductInfo> productInfos;
-      
-      
-      
-      
-   
+
    }
 }

@@ -25,22 +25,6 @@ namespace com.hzins.channel.api.model.info
       public String cName;
       ///  被保人证件号码
       public String cardCode;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

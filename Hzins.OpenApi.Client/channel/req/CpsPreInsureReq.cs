@@ -25,22 +25,6 @@ namespace com.hzins.channel.api.model.req
       public String partnerUniqueKey;
       ///  投保人信息
       public com.hzins.channel.api.model.info.ApplicantInfo applicantInfo;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

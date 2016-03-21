@@ -20,10 +20,6 @@ namespace com.hzins.channel.api.model.req
    public class InsureDetailReq : BaseReq
    {
       public String insureNum;
-      
-      
-      
-      
-   
+
    }
 }

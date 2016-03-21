@@ -21,10 +21,6 @@ namespace com.hzins.channel.api.model.req
    {
       ///  如果是代理商模式，需要传此ID（代理商下级用户Id）
       public String userId;
-      
-      
-      
-      
-   
+
    }
 }

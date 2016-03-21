@@ -21,22 +21,6 @@ namespace com.hzins.channel.api.model.resp
       public int partnerId;
       public String insureNo;
       public String insureNum;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

@@ -21,10 +21,6 @@ namespace com.hzins.channel.api.model.resp
    {
       ///  车险支付入口
       public String carPayEntranceUrl;
-      
-      
-      
-      
-   
+
    }
 }

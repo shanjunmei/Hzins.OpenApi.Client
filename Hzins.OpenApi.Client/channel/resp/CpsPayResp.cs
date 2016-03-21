@@ -10,31 +10,18 @@
 
 using System;
 
-
 namespace com.hzins.channel.api.model.resp
 {
    /// <p>
    /// 异步投保 在线CPS页面支付
    /// 返回的实体（含支付链接）
    /// </p>
-   public class CpsPayResp
+   public class CpsPayResp : java.io.Serializable
    {
       public const long serialVersionUID = -710272183659427282L;
       public String transNo;
       public String insureNum;
       public String paymentUrl;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }

@@ -18,10 +18,6 @@ namespace com.hzins.channel.api.model.req
    public class InsureDownloadReq : BaseReq
    {
       public String insureNum;
-      
-      
-      
-      
-   
+
    }
 }

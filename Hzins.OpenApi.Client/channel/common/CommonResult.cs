@@ -21,23 +21,11 @@ namespace com.hzins.channel.api.model.common
       public int respCode;
       public String respMsg;
       public T data;
-      
+
       public CommonResult()
       {
-      
+
       }
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
+
    }
 }
