@@ -11,6 +11,10 @@
 using System;
 
 
+
+
+
+
 namespace com.hzins.channel.api.model.info
 {
    /// <p>
@@ -83,24 +87,24 @@ namespace com.hzins.channel.api.model.info
       /// 线上投保使用，假如交强险或商业险投保过，此字段为1
       public byte hasOnlineQuote;
       /// 支付时间
-     // [JsonSerialize(using = DateTimeSerializer.class)]
-    //  [JsonDeserialize(using = DateTimeDeserializer.class)]
+      
+      
       public DateTime payTime;
       /// 交强险开始时间
-    //  [JsonSerialize(using = DateTimeSerializer.class)]
-    //  [JsonDeserialize(using = DateTimeDeserializer.class)]
+      
+      
       public DateTime trafficInsureStartTime;
       /// 交强险结束时间
-    //  [JsonSerialize(using = DateTimeSerializer.class)]
-    //  [JsonDeserialize(using = DateTimeDeserializer.class)]
+      
+      
       public DateTime trafficInsureEndTime;
       /// 商业险开始时间
-   //   [JsonSerialize(using = DateTimeSerializer.class)]
-   //   [JsonDeserialize(using = DateTimeDeserializer.class)]
+      
+      
       public DateTime busiInsureStartTime;
       /// 商业险结束时间
-    //  [JsonSerialize(using = DateTimeSerializer.class)]
-    //  [JsonDeserialize(using = DateTimeDeserializer.class)]
+      
+      
       public DateTime busiInsureEndTime;
       
       
