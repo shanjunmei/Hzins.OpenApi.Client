@@ -8,7 +8,6 @@
  *  
  */
 
-using System;
 using com.hzins.channel.api.model.common;
 using com.hzins.channel.api.model.info;
 using com.hzins.channel.api.model.req;
@@ -17,12 +16,12 @@ using com.hzins.channel.api.model.resp;
 
 namespace com.hzins.openapi.client
 {
-   /// <p>
-   /// 
-   /// 远程方法接口声明
-   /// 
-   /// </p>
-   public interface OpenApiRemoteOperation
+    /// <p>
+    /// 
+    /// 远程方法接口声明
+    /// 
+    /// </p>
+    public interface OpenApiRemoteOperation
    {
       /// <p>
       /// 
