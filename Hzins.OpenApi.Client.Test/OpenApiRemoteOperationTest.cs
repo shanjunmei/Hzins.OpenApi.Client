@@ -11,8 +11,8 @@ namespace com.hzins.rpc.client.test
         static OpenApiRemoteOperation operation = ProxyFactory.create<OpenApiRemoteOperation>(Configure.Request.baseUrl);
 
         private static void init() {
-            Configure.Channel.partnerId = 22803;
-            Configure.Channel.channelKey = "22803^*#%";
+            Configure.Channel.partnerId = 23594;
+            Configure.Channel.channelKey = "23594^*#%";
         }
 
         public static void  testProductList()
@@ -33,6 +33,26 @@ namespace com.hzins.rpc.client.test
             System.Console.WriteLine(req.transNo);
 
             CommonResult<ProductListResp> ret = operation.productList(ref req);
+
+            System.Console.WriteLine(ret.respCode);
+            System.Console.ReadKey();
+        }
+
+        public static void testcarInsureDetail()
+        {
+            init();
+
+          
+            int partnerId = (int)Configure.Channel.partnerId;
+           
+           
+
+            CarInsureDetailReq carInsureDetailReq = new CarInsureDetailReq();
+            carInsureDetailReq.insureNum = "CX2016031017153917457";
+            carInsureDetailReq.partnerId = partnerId;
+            carInsureDetailReq.transNo = "testcarInsureDetail";
+            System.Console.WriteLine(carInsureDetailReq.transNo);
+            CommonResult<CarInsureDetailResp> ret = operation.carInsureDetail(ref carInsureDetailReq);
 
             System.Console.WriteLine(ret.respCode);
             System.Console.ReadKey();

@@ -6,7 +6,7 @@ namespace sdk_test
     {
         static void Main(string[] args)
         {
-            OpenApiRemoteOperationTest.testProductList();
+            OpenApiRemoteOperationTest.testcarInsureDetail();
         }
     }
 }

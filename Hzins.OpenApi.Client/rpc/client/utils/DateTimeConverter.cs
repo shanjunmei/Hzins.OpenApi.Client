@@ -1,16 +1,19 @@
 ﻿using Newtonsoft.Json.Converters;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace Hzins.OpenApi.Client.rpc.client.utils
 {
-    class DateTimeConverter : IsoDateTimeConverter
+    /// <summary>
+    /// 时间格式化
+    /// </summary>
+    public class DateTimeConverter : IsoDateTimeConverter
     {
+        /// <summary>
+        /// 
+        /// </summary>
         public DateTimeConverter()
         {
-            DateTimeFormat = "yyyy'-'MM'-'dd' 'HH':'mm':ss'";
+           DateTimeFormat = "yyyy-MM-dd HH:mm:ss";
         }
+
     }
 }

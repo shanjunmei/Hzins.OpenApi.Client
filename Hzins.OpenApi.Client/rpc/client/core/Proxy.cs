@@ -95,6 +95,7 @@ namespace com.hzins.rpc.client.core
         /// <returns></returns>
         private static string sign(string api, string param)
         {
+            Console.WriteLine(param);
             string sign = Md5.encrypt(Configure.Channel.channelKey + param);
             api = api + "?sign=" + sign;
             return api;
@@ -108,7 +109,10 @@ namespace com.hzins.rpc.client.core
 
         public object convert2entity(string json, Type type)
         {
-            return JsonConvert.DeserializeObject(json, type);
+            Console.WriteLine(json);
+            JsonSerializerSettings jsetting = new JsonSerializerSettings();
+            jsetting.NullValueHandling = NullValueHandling.Ignore;
+            return JsonConvert.DeserializeObject(json, type,jsetting);
         }
     }
 }

@@ -1487,5 +1487,15 @@
             <param name="src"></param>
             <returns></returns>
         </member>
+        <member name="T:Hzins.OpenApi.Client.rpc.client.utils.DateTimeConverter">
+            <summary>
+            时间格式化
+            </summary>
+        </member>
+        <member name="M:Hzins.OpenApi.Client.rpc.client.utils.DateTimeConverter.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
     </members>
 </doc>
