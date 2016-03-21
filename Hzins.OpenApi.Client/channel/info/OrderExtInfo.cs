@@ -10,14 +10,13 @@
 
 using System;
 using System.Collections.Generic;
-using System.Collections.Generic;
 
 namespace com.hzins.channel.api.model.info
 {
-   /// <summary>
-   /// 
-   /// </summary>
-   public class OrderExtInfo
+    /// <summary>
+    /// 
+    /// </summary>
+    public class OrderExtInfo
    {
       ///  惠择投保单号
       public String insureNum;
