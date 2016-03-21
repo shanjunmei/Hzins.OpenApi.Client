@@ -12,9 +12,9 @@ using System;
 
 namespace com.hzins.channel.api.model.info
 {
-   /// <p>
+   /// <summary>
    /// 服务费按月汇总详细信息
-   /// </p>
+   /// </summary>
    public class IncomeDetailInfo
    {
       /// 0为未结算，1为结算中，2为已经结算

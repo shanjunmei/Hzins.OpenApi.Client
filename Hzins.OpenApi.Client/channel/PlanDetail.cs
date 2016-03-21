@@ -12,11 +12,11 @@ using System;
 
 namespace com.hzins.channel.api.model
 {
-   /// <p>
+   /// <summary>
    /// 
    /// 
    /// 
-   /// </p>
+   /// </summary>
    public class PlanDetail
    {
       public String name;

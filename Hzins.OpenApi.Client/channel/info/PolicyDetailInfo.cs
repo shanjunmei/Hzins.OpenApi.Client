@@ -12,9 +12,9 @@ using System;
 
 namespace com.hzins.channel.api.model.info
 {
-   /// <p>
+   /// <summary>
    /// 保单详情查询 保单明细（不包含保险人和被保险人）
-   /// </p>
+   /// </summary>
    public class PolicyDetailInfo
    {
       ///  总份数

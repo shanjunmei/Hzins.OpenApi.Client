@@ -12,11 +12,11 @@ using System;
 
 namespace com.hzins.channel.api.model.req
 {
-   /// <p>
+   /// <summary>
    /// 
    /// 子帐号
    /// 
-   /// </p>
+   /// </summary>
    public abstract class SubUserBaseReq : BaseReq
    {
       ///  如果是代理商模式，需要传此ID（代理商下级用户Id）

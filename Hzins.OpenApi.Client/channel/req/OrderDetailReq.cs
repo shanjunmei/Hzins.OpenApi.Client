@@ -12,9 +12,9 @@ using System;
 
 namespace com.hzins.channel.api.model.req
 {
-   /// <p>
+   /// <summary>
    /// 
-   /// </p>
+   /// </summary>
    public class OrderDetailReq : SubUserBaseReq
    {
       public String insureNum;

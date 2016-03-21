@@ -12,9 +12,9 @@ using System;
 
 namespace com.hzins.channel.api.model.resp
 {
-   /// <p>
+   /// <summary>
    /// 结算申请返回
-   /// </p>
+   /// </summary>
    public class SettlementBillTotalResp
    {
       public String transNo;

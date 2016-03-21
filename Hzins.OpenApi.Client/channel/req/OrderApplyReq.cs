@@ -15,9 +15,9 @@ using com.hzins.channel.api.model.info;
 
 namespace com.hzins.channel.api.model.req
 {
-   /// <p>
+   /// <summary>
    /// 第三方投保对接投保请求消息
-   /// </p>
+   /// </summary>
    public class OrderApplyReq : BaseReq
    {
       ///  方案代码，每一款保险公司的方案代码都不相同，由慧择分配

@@ -12,9 +12,9 @@ using System;
 
 namespace com.hzins.channel.api.model.info
 {
-   /// <p>
+   /// <summary>
    /// 申请结算明细信息
-   /// </p>
+   /// </summary>
    public class SettlementBillDetailInfo
    {
       /// 申请服务费结算之后的settlementBill数据的Id

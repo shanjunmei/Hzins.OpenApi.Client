@@ -13,9 +13,9 @@ using System.Collections.Generic;
 
 namespace com.hzins.channel.api.model.req
 {
-   /// <p>
+   /// <summary>
    /// 结算前每月汇总查询请求参数
-   /// </p>
+   /// </summary>
    public class IncomeDetailReq : BaseReq
    {
       ///  渠道唯一的标识

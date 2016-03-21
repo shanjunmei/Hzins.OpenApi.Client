@@ -11,11 +11,11 @@ namespace com.hzins.channel.api.model.common
    ///  * you entered into with Hzins,http://www.hzins.com.
    ///  *
    ///  */
-   /// <p>
+   /// <summary>
    /// 
    /// 统一返回对象
    /// 
-   /// </p>
+   /// </summary>
    public class CommonResult<T>
    {
       public int respCode;

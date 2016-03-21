@@ -12,11 +12,11 @@ using System;
 
 namespace com.hzins.channel.api.model.req
 {
-   /// <p>
+   /// <summary>
    /// 
    /// 
    /// 
-   /// </p>
+   /// </summary>
    public class CarInsureDetailReq : CoreBaseReq
    {
       /// 投保单号

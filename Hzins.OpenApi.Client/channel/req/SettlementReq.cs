@@ -13,9 +13,9 @@ using com.hzins.channel.api.model.info;
 
 namespace com.hzins.channel.api.model.req
 {
-   /// <p>
+   /// <summary>
    /// 服务费结算请求实体
-   /// </p>
+   /// </summary>
    public class SettlementReq : SubUserBaseReq
    {
       public com.hzins.channel.api.model.info.FinancialInfo financialInfo;

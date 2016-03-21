@@ -12,9 +12,9 @@ using System;
 
 namespace com.hzins.channel.api.model.resp
 {
-   /// <p>
+   /// <summary>
    /// 返回基础类
-   /// </p>
+   /// </summary>
    public abstract class BaseResp
    {
       ///  交易流水号，每一单请求交易不能相同

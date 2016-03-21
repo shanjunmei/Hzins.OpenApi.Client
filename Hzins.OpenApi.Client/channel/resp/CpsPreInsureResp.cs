@@ -12,11 +12,11 @@ using System;
 
 namespace com.hzins.channel.api.model.resp
 {
-   /// <p>
+   /// <summary>
    /// 
    /// 
    /// 
-   /// </p>
+   /// </summary>
    public class CpsPreInsureResp : BaseResp
    {
       /// 产品详情地址

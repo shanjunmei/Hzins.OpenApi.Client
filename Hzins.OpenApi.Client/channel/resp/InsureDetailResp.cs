@@ -14,9 +14,9 @@ using com.hzins.channel.api.model.info;
 
 namespace com.hzins.channel.api.model.resp
 {
-   /// <p>
+   /// <summary>
    /// 保单查询返回信息
-   /// </p>
+   /// </summary>
    public class InsureDetailResp
    {
       ///  投保人信息

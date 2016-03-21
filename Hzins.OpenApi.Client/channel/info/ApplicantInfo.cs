@@ -12,9 +12,9 @@ using System;
 
 namespace com.hzins.channel.api.model.info
 {
-   /// <p>
+   /// <summary>
    /// 投保人信息
-   /// </p>
+   /// </summary>
    public class ApplicantInfo
    {
       ///  投保人姓名

@@ -13,9 +13,9 @@ using com.hzins.channel.api.model.info;
 
 namespace com.hzins.channel.api.model.req
 {
-   /// <p>
+   /// <summary>
    /// 退保请求消息
-   /// </p>
+   /// </summary>
    public class OrderCancelReq : BaseReq
    {
       public String insureNo;

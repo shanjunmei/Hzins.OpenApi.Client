@@ -12,9 +12,9 @@ using System;
 
 namespace com.hzins.channel.api.model.resp
 {
-   /// <p>
+   /// <summary>
    /// 
-   /// </p>
+   /// </summary>
    public class OrderCancelResp
    {
       public String transNo;

@@ -12,9 +12,9 @@ using System;
 
 namespace com.hzins.channel.api.model.req
 {
-   /// <p>
+   /// <summary>
    /// 结算申请请求信息
-   /// </p>
+   /// </summary>
    public class SettlementBillTotalReq : SubUserBaseReq
    {
       ///  查询的申请结算开始时间

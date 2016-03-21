@@ -12,9 +12,9 @@ using System;
 
 namespace com.hzins.channel.api.model.info
 {
-   /// <p>
+   /// <summary>
    /// api服务费提现财务信息实体
-   /// </p>
+   /// </summary>
    public class FinancialInfo
    {
       /// 账户类型，0银行，1支付宝,2未设置，3会员，10其它

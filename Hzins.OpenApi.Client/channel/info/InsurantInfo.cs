@@ -12,9 +12,9 @@ using System;
 
 namespace com.hzins.channel.api.model.info
 {
-   /// <p>
+   /// <summary>
    /// 被保人信息
-   /// </p>
+   /// </summary>
    public class InsurantInfo
    {
       ///  被保人ID，由代理商传递

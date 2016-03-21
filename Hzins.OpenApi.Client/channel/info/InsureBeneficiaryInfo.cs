@@ -10,9 +10,9 @@ namespace com.hzins.channel.api.model.info
    ///  * and shall use it only in accordance with the terms of the agreements
    ///  * you entered into with Hzins,http://www.hzins.com.
    ///  */
-   /// <p>
+   /// <summary>
    /// 寿险投保受益人实体类
-   /// </p>
+   /// </summary>
    public class InsureBeneficiaryInfo
    {
       /// 受益人生日

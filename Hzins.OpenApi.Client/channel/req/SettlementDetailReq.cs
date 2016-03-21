@@ -12,9 +12,9 @@ using System;
 
 namespace com.hzins.channel.api.model.req
 {
-   /// <p>
+   /// <summary>
    /// 服务费明细请求信息
-   /// </p>
+   /// </summary>
    public class SettlementDetailReq : SubUserBaseReq
    {
       ///  投保单号(多个以英文逗号隔开)

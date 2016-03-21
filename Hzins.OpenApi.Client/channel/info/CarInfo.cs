@@ -12,11 +12,11 @@ using System;
 
 namespace com.hzins.channel.api.model.info
 {
-   /// <p>
+   /// <summary>
    /// 
    /// 车辆信息
    /// 
-   /// </p>
+   /// </summary>
    public class CarInfo
    {
       /// 投保区域名称，默认深圳

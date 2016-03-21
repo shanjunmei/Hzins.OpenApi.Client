@@ -12,9 +12,9 @@ using System;
 
 namespace com.hzins.channel.api.model.info
 {
-   /// <p>
+   /// <summary>
    /// 
-   /// </p>
+   /// </summary>
    public class ExtendInfo
    {
       ///  用户在代理商系统中的唯一标识

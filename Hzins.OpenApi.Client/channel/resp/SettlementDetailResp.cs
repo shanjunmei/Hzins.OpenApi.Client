@@ -14,9 +14,9 @@ using com.hzins.channel.api.model.info;
 
 namespace com.hzins.channel.api.model.resp
 {
-   /// <p>
+   /// <summary>
    /// 	服务费明细返回实体
-   /// </p>
+   /// </summary>
    public class SettlementDetailResp
    {
       /// 流水号

@@ -12,9 +12,9 @@ using System;
 
 namespace com.hzins.channel.api.model.info
 {
-   /// <p>
+   /// <summary>
    /// 投保单信息
-   /// </p>
+   /// </summary>
    public class OrderDetailInfo
    {
       public String insureNum;

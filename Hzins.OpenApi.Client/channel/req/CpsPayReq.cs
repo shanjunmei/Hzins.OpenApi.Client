@@ -12,9 +12,9 @@ using System;
 
 namespace com.hzins.channel.api.model.req
 {
-   /// <p>
+   /// <summary>
    /// 
-   /// </p>
+   /// </summary>
    public class CpsPayReq : SubUserBaseReq
    {
       ///  投保单号，不是订单号

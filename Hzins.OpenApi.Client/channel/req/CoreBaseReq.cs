@@ -12,11 +12,11 @@ using System;
 
 namespace com.hzins.channel.api.model.req
 {
-   /// <p>
+   /// <summary>
    /// 
    /// 核心请求基类，排除sign
    /// 
-   /// </p>
+   /// </summary>
    public class CoreBaseReq
    {
       ///  交易流水号，每一单请求交易不能相同

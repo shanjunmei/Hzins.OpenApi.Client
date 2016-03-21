@@ -13,9 +13,9 @@ using com.hzins.channel.api.model;
 
 namespace com.hzins.channel.api.model.resp
 {
-   /// <p>
+   /// <summary>
    /// 支付接口返回参数
-   /// </p>
+   /// </summary>
    public class PrePayResp
    {
       public String transNo;

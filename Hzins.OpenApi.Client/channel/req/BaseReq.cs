@@ -12,9 +12,9 @@ using System;
 
 namespace com.hzins.channel.api.model.req
 {
-   /// <p>
+   /// <summary>
    /// 第三方请求基础类
-   /// </p>
+   /// </summary>
    public abstract class BaseReq : CoreBaseReq
    {
    }

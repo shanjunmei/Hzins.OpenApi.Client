@@ -12,9 +12,9 @@ using System;
 
 namespace com.hzins.channel.api.model.req
 {
-   /// <p>
+   /// <summary>
    /// 支付接口请求对象
-   /// </p>
+   /// </summary>
    public class AppPrePayReq : SubUserBaseReq
    {
       ///  投保单号

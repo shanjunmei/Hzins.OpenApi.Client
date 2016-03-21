@@ -12,9 +12,9 @@ using System;
 
 namespace com.hzins.channel.api.model.info
 {
-   /// <p>
+   /// <summary>
    /// 寿险健康险专用实体（旅意险不考虑）
-   /// </p>
+   /// </summary>
    public class HealthInfo
    {
       /// *********************************

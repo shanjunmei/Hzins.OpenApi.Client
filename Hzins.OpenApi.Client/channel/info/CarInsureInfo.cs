@@ -12,11 +12,11 @@ using System;
 
 namespace com.hzins.channel.api.model.info
 {
-   /// <p>
+   /// <summary>
    /// 
    /// 车险投保单信息
    /// 
-   /// </p>
+   /// </summary>
    public class CarInsureInfo
    {
       /// 保险公司名称

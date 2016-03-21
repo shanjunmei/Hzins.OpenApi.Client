@@ -13,9 +13,9 @@ using System.Collections.Generic;
 
 namespace com.hzins.channel.api.model.req
 {
-   /// <p>
+   /// <summary>
    /// 
-   /// </p>
+   /// </summary>
    public class OrderSearchReq : SubUserBaseReq
    {
       ///  当前页

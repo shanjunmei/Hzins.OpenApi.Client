@@ -12,9 +12,9 @@ using System;
 
 namespace com.hzins.channel.api.model.resp
 {
-   /// <p>
+   /// <summary>
    /// 支付接口返回参数
-   /// </p>
+   /// </summary>
    public class PayResp
    {
       public String transNo;

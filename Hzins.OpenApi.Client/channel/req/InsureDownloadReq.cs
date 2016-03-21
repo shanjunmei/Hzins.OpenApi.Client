@@ -12,9 +12,9 @@ using System;
 
 namespace com.hzins.channel.api.model.req
 {
-   /// <p>
+   /// <summary>
    /// 保单下载
-   /// </p>
+   /// </summary>
    public class InsureDownloadReq : BaseReq
    {
       public String insureNum;

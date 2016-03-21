@@ -13,11 +13,11 @@ using com.hzins.channel.api.model.info;
 
 namespace com.hzins.channel.api.model.resp
 {
-   /// <p>
+   /// <summary>
    /// 
    /// 
    /// 
-   /// </p>
+   /// </summary>
    public class CarInsureDetailResp : BaseResp
    {
       /// 车辆信息

@@ -12,11 +12,11 @@ using System;
 
 namespace com.hzins.channel.api.model.resp
 {
-   /// <p>
+   /// <summary>
    /// 
    /// 车险预支付返回
    /// 
-   /// </p>
+   /// </summary>
    public class CarPrePayResp : BaseResp
    {
       ///  车险支付入口

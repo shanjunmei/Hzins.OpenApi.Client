@@ -12,9 +12,9 @@ using System;
 
 namespace com.hzins.channel.api.model.info
 {
-   /// <p>
+   /// <summary>
    /// 寿险健康险需加入的试算实体类
-   /// </p>
+   /// </summary>
    public class CalculatePriceDataInfo
    {
       /// 保证项目选项值(暂时不传)

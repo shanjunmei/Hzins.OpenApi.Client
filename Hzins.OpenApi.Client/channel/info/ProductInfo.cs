@@ -12,9 +12,9 @@ using System;
 
 namespace com.hzins.channel.api.model.info
 {
-   /// <p>
+   /// <summary>
    ///  产品详情返回实体
-   /// </p>
+   /// </summary>
    public class ProductInfo
    {
       public int prodId;

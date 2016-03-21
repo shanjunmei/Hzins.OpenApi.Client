@@ -13,11 +13,11 @@ using System.Collections.Generic;
 
 namespace com.hzins.channel.api.model.info
 {
-   /// <p>
+   /// <summary>
    /// 
    /// 
    /// 
-   /// </p>
+   /// </summary>
    public class ApiPartnerInsureInfo
    {
       /// 渠道用户身份标识

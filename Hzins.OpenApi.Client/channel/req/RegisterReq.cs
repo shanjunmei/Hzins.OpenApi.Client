@@ -12,9 +12,9 @@ using System;
 
 namespace com.hzins.channel.api.model.req
 {
-   /// <p>
+   /// <summary>
    /// 
-   /// </p>
+   /// </summary>
    public class RegisterReq : SubUserBaseReq
    {
       public const long serialVersionUID = 7431287304382522749L;

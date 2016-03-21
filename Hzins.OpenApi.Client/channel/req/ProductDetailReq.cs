@@ -12,9 +12,9 @@ using System;
 
 namespace com.hzins.channel.api.model.req
 {
-   /// <p>
+   /// <summary>
    /// 产品详情请求信息
-   /// </p>
+   /// </summary>
    public class ProductDetailReq : BaseReq
    {
       ///  产品ID

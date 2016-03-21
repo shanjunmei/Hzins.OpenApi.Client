@@ -12,9 +12,9 @@ using System;
 
 namespace com.hzins.channel.api.model.info
 {
-   /// <p>
+   /// <summary>
    /// 服务费明细信息
-   /// </p>
+   /// </summary>
    public class SettlementDetailInfo
    {
       public String email;

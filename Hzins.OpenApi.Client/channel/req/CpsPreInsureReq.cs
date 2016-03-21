@@ -13,11 +13,11 @@ using com.hzins.channel.api.model.info;
 
 namespace com.hzins.channel.api.model.req
 {
-   /// <p>
+   /// <summary>
    /// 
    /// 
    /// 
-   /// </p>
+   /// </summary>
    public class CpsPreInsureReq : BaseReq
    {
       public String caseCode;
