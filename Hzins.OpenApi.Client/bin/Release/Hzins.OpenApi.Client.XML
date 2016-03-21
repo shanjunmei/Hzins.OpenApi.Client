@@ -1,0 +1,1491 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hzins.OpenApi.Client</name>
+    </assembly>
+    <members>
+        <member name="T:com.hzins.channel.api.model.ApplicationData">
+            <p>
+            
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.ApplicationData.applicationDate">
+             投保时间
+        </member>
+        <member name="F:com.hzins.channel.api.model.ApplicationData.startDate">
+             起保日期，保单的生效时间
+        </member>
+        <member name="F:com.hzins.channel.api.model.ApplicationData.endDate">
+             终保日期，保单的失效时间
+        </member>
+        <member name="F:com.hzins.channel.api.model.ApplicationData.singlePrice">
+             结算价，即相应保险产品的保费
+        </member>
+        <member name="T:com.hzins.channel.api.model.common.CommonResult`1">
+            /**
+             * Copyright (c) 2006-2015 Hzins Ltd. All Rights Reserved. 
+             *
+             * This code is the confidential and proprietary information of   
+             * Hzins. You shall not disclose such Confidential Information   
+             * and shall use it only in accordance with the terms of the agreements   
+             * you entered into with Hzins,http://www.hzins.com.
+             *
+             */
+            <p>
+            
+            统一返回对象
+            
+            </p>
+        </member>
+        <member name="T:com.hzins.channel.api.model.info.ApiPartnerInsureInfo">
+            <p>
+            
+            
+            
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.ApiPartnerInsureInfo.partnerUniqueKey">
+            渠道用户身份标识
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.ApiPartnerInsureInfo.insureNo">
+            投保单号
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.ApiPartnerInsureInfo.orderDetailInfos">
+            订单详情
+        </member>
+        <member name="T:com.hzins.channel.api.model.info.ApplicantInfo">
+            <p>
+            投保人信息
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.ApplicantInfo.cName">
+             投保人姓名
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.ApplicantInfo.eName">
+             投保人英文名，境外险必填
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.ApplicantInfo.cardType">
+             投保人证件类型
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.ApplicantInfo.cardCode">
+             证件号码
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.ApplicantInfo.sex">
+             性别 0女1男
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.ApplicantInfo.birthday">
+             出生日期
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.ApplicantInfo.mobile">
+             手机号码
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.ApplicantInfo.email">
+             电子邮箱
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.ApplicantInfo.jobInfo">
+             职业信息
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.ApplicantInfo.country">
+            国籍
+        </member>
+        <member name="T:com.hzins.channel.api.model.info.CalculatePriceDataInfo">
+            <p>
+            寿险健康险需加入的试算实体类
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CalculatePriceDataInfo.optionValue">
+            保证项目选项值(暂时不传)
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CalculatePriceDataInfo.paymentLimit">
+            缴费期限 一次性缴或者趸交 传0
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CalculatePriceDataInfo.insurancePeriod">
+            保障期限
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CalculatePriceDataInfo.insuranceUnit">
+            保障期限单位 1为年 2为岁
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CalculatePriceDataInfo.insuranceAmount">
+            保险金额
+        </member>
+        <member name="T:com.hzins.channel.api.model.info.CarInfo">
+            <p>
+            
+            车辆信息
+            
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInfo.insureAreaName">
+            投保区域名称，默认深圳
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInfo.insureAreaNum">
+            投保区域码，全国统一
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInfo.plateNum">
+            车牌
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInfo.frameNo">
+            车架号码
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInfo.engineNum">
+            发动机号
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInfo.registerTime">
+            注册日期
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInfo.isTransfer">
+            是否过户车辆（0：否，1：是）
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInfo.owner">
+            车主
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInfo.owerCardType">
+            证件类型 1=身份证;2=护照；3=军官证；4=港澳回乡证；5=台胞证；6=组织机构代码证；7=税务登记证；8=其他
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInfo.ownerCardNum">
+            证件号码
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInfo.seatNum">
+            核定载人数
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInfo.weight">
+            核定载质量
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInfo.emissions">
+            核定排气量
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInfo.brandModel">
+            品牌型号
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInfo.newCarLicenseFlag">
+            新车是否上牌照，1未上牌，0上牌
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInfo.power">
+            排量
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInfo.transferTime">
+            过户时间
+        </member>
+        <member name="T:com.hzins.channel.api.model.info.CarInsureInfo">
+            <p>
+            
+            车险投保单信息
+            
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.companyName">
+            保险公司名称
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.partnerUniqKey">
+            渠道用户唯一标识
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.insureNum">
+            投保单号(CX开头+YYMMDD+10000000~99999999随机数）
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.applicant">
+            投保人姓名
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.applicantCardType">
+            投保人证件类型 1=身份证;2=护照；3=军官证；4=港澳回乡证；5=台胞证；6=组织机构代码证；7=税务登记证；8=其他
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.applicantPhone">
+            投保人电话
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.applicantCardNum">
+            证件号码
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.insurantType">
+            1:同车主 2：同投保人 3：其他
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.insurant">
+            被保险人
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.insurantCardType">
+            被保险人证件类型
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.insurantCardNum">
+            被保险人证件号码
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.insurantPhone">
+            被保人电话
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.expreWay">
+            寄送方法 1:配送 2:自提
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.expreReceiver">
+            收件人
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.expreAddress">
+            配送联系地址
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.expreMobile">
+            配送联系号码
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.travelTaxPremium">
+            车船税保费(冗余)
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.bussinessPremium">
+            商业险保费(冗余)
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.strongPremium">
+            交强险保费(冗余)
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.lateFee">
+            滞纳金(冗余)
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.userPayAmount">
+            用户支付金额
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.premium">
+            保费(冗余)
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.strongPolicyNum">
+            交强险保单号（出单填写）
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.bussinessPolicyNum">
+            商业险保单号（出单填写）
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.policyRemark">
+            出单备注（出单填写）
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.status">
+            状态： 0=初审中 1=初审失败 2=核保中 3=核保失败 5=核保成功 6=拒保 7=已过期 8=已撤销
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.payStatus">
+            支付状态（1=待支付，2=待确认，3=已支付\n）
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.receivePayStatus">
+            收款状态（1：待收款 2：已收款）
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.issueStatus">
+            出单状态（1=未出单 2=已出单）
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.userRemark">
+            用户自己备注
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.hasOnlineQuote">
+            线上投保使用，假如交强险或商业险投保过，此字段为1
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.payTime">
+            支付时间
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.trafficInsureStartTime">
+            交强险开始时间
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.trafficInsureEndTime">
+            交强险结束时间
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.busiInsureStartTime">
+            商业险开始时间
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.CarInsureInfo.busiInsureEndTime">
+            商业险结束时间
+        </member>
+        <member name="T:com.hzins.channel.api.model.info.ExtendInfo">
+            <p>
+            
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.ExtendInfo.userId">
+             用户在代理商系统中的唯一标识
+        </member>
+        <member name="T:com.hzins.channel.api.model.info.FinancialInfo">
+            <p>
+            api服务费提现财务信息实体
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.FinancialInfo.accountType">
+            账户类型，0银行，1支付宝,2未设置，3会员，10其它
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.FinancialInfo.bankName">
+            开户行
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.FinancialInfo.accountName">
+            户名
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.FinancialInfo.bankAccount">
+            银行账号
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.FinancialInfo.aliPayAccount">
+            支付宝账户
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.FinancialInfo.sex">
+            性别
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.FinancialInfo.cardnumber">
+            身份证号码
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.FinancialInfo.provinces">
+            户籍所在地省份
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.FinancialInfo.city">
+            户籍所在地城市
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.FinancialInfo.unit">
+            工作单位
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.FinancialInfo.address">
+            通讯地址
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.FinancialInfo.zipcode">
+            邮政编码
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.FinancialInfo.bankProvince">
+            开户行所在省
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.FinancialInfo.bankCity">
+            开户行所在城市
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.FinancialInfo.bankBranchName">
+            开户行分行支行
+        </member>
+        <member name="T:com.hzins.channel.api.model.info.HealthInfo">
+            <p>
+            寿险健康险专用实体（旅意险不考虑）
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.HealthInfo.insurePassword">
+            *********************************
+            保单密码
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.HealthInfo.backPayAccount">
+             持卡人卡号
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.HealthInfo.backPayName">
+             持卡人姓名
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.HealthInfo.backPayBank">
+             赎回银行ID
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.HealthInfo.backPayBankName">
+             赎回银行名称
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.HealthInfo.insuredYearlyIncome">
+             年收入
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.HealthInfo.renewalPayBank">
+            *********************************
+            续期缴费银行
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.HealthInfo.renewalPayBankName">
+            续期缴费银行名称
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.HealthInfo.renewalPayName">
+            续期缴费户名
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.HealthInfo.renewalPayAccount">
+            续期缴费账号
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.HealthInfo.notifyAnswerId">
+            健康告知ID
+        </member>
+        <member name="T:com.hzins.channel.api.model.info.IncomeDetailInfo">
+            <p>
+            服务费按月汇总详细信息
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.IncomeDetailInfo.settlementState">
+            0为未结算，1为结算中，2为已经结算
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.IncomeDetailInfo.totalIncome">
+            总计服务费(Income+Award)
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.IncomeDetailInfo.premium">
+            总计保费
+        </member>
+        <member name="T:com.hzins.channel.api.model.info.InsurantInfo">
+            <p>
+            被保人信息
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsurantInfo.insurantId">
+             被保人ID，由代理商传递
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsurantInfo.cName">
+             被保人姓名
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsurantInfo.eName">
+             被保人英文名，境外险必填
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsurantInfo.cardType">
+             被保人证件类型
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsurantInfo.cardCode">
+             证件号码
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsurantInfo.sex">
+             性别 0女1男
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsurantInfo.birthday">
+             出生日期
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsurantInfo.fltNo">
+             航班号，航意险必填
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsurantInfo.fltDate">
+             起飞时间，航意险必填
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsurantInfo.city">
+             所在地区代码，由慧择分配，特定产品必填
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsurantInfo.tripPurposeId">
+             出行目的，特定产品必填
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsurantInfo.destination">
+             出行目的地，特定产品必填
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsurantInfo.visaCity">
+             签证办理城市，特定产品必填
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsurantInfo.relationId">
+             被保人与投保人关系
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsurantInfo.count">
+             购买份数
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsurantInfo.jobInfo">
+             职业信息
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsurantInfo.mobile">
+             手机号码
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsurantInfo.singlePrice">
+             结算价，即相应保险产品的保费
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsurantInfo.country">
+            国籍
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsurantInfo.houseTypeName">
+            房屋类型,比如钢筋，混泥土（新增家财综合保险）
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsurantInfo.propertyAddress">
+            财产所在地（新增家财综合保险）
+        </member>
+        <member name="T:com.hzins.channel.api.model.info.InsureBeneficiaryInfo">
+            /**
+             * Copyright (c) 2006-2015 Hzins Ltd. All Rights Reserved.
+             * <p/>
+             * This code is the confidential and proprietary information of
+             * Hzins. You shall not disclose such Confidential Information
+             * and shall use it only in accordance with the terms of the agreements
+             * you entered into with Hzins,http://www.hzins.com.
+             */
+            <p>
+            寿险投保受益人实体类
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsureBeneficiaryInfo.birthdate">
+            受益人生日
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsureBeneficiaryInfo.cardNumber">
+            证件号码
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsureBeneficiaryInfo.cardTypeId">
+            证件类型
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsureBeneficiaryInfo.cName">
+            受益人名字
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsureBeneficiaryInfo.relationId">
+            与被保人关系
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsureBeneficiaryInfo.serial">
+            受益人顺序
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.InsureBeneficiaryInfo.proportion">
+            受益人比率
+        </member>
+        <member name="T:com.hzins.channel.api.model.info.OrderDetailInfo">
+            <p>
+            投保单信息
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.OrderDetailInfo.payState">
+             保单类型，2待完成，3未支付，4已支付
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.OrderDetailInfo.issueState">
+             (1 未支付;10 未出单;20 已出单;30 延时出单;40 取消出单)
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.OrderDetailInfo.effectiveState">
+             生效状(1 未生效;2 已生效;3 已退保 21 退保中)
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.OrderDetailInfo.insureTime">
+             投保时间
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.OrderDetailInfo.totalNum">
+             总份数
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.OrderDetailInfo.price">
+             价格
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.OrderDetailInfo.startDate">
+             起保时间
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.OrderDetailInfo.endDate">
+             截止时间
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.OrderDetailInfo.deadline">
+             保险期限
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.OrderDetailInfo.companyName">
+             保险公司名称
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.OrderDetailInfo.applicant">
+             投保人姓名
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.OrderDetailInfo.insurant">
+             被保险人姓名
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.OrderDetailInfo.policyNum">
+             保险公司保单号
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.OrderDetailInfo.caseCode">
+            方案代码
+        </member>
+        <member name="T:com.hzins.channel.api.model.info.OrderExtInfo">
+            <p>
+            
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.OrderExtInfo.insureNum">
+             惠择投保单号
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.OrderExtInfo.insurantIds">
+             被保人id集合
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.OrderExtInfo.insurantCount">
+             被保人数量
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.OrderExtInfo.priceTotal">
+            本单总价
+        </member>
+        <member name="T:com.hzins.channel.api.model.info.OrderInfo">
+            <p>
+            
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.OrderInfo.insureNum">
+             惠择投保单号
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.OrderInfo.policyNum">
+             保险公司保单号
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.OrderInfo.cName">
+             被保人姓名
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.OrderInfo.cardCode">
+             被保人证件号码
+        </member>
+        <member name="T:com.hzins.channel.api.model.info.PolicyDetailInfo">
+            <p>
+            保单详情查询 保单明细（不包含保险人和被保险人）
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.PolicyDetailInfo.totalNum">
+             总份数
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.PolicyDetailInfo.deallineText">
+            生效时间区间
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.PolicyDetailInfo.buySinglePrice">
+             支付价
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.PolicyDetailInfo.settlementPrice">
+             结算价
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.PolicyDetailInfo.insureProject">
+            保障项目
+        </member>
+        <member name="T:com.hzins.channel.api.model.info.ProductInfo">
+            <p>
+             产品详情返回实体
+            </p>
+        </member>
+        <member name="T:com.hzins.channel.api.model.info.SettlementBillDetailInfo">
+            <p>
+            申请结算明细信息
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.SettlementBillDetailInfo.billId">
+            申请服务费结算之后的settlementBill数据的Id
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.SettlementBillDetailInfo.year">
+            结算年份
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.SettlementBillDetailInfo.month">
+            结算月度
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.SettlementBillDetailInfo.range">
+            结算周期
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.SettlementBillDetailInfo.createTime">
+            申请结算时间
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.SettlementBillDetailInfo.userType">
+            用户类型(0表示渠道，1表示代理商)
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.SettlementBillDetailInfo.applyFee">
+            应付收入(税前)
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.SettlementBillDetailInfo.deductTax">
+            代扣税款
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.SettlementBillDetailInfo.payFee">
+            应付收入(税后)
+        </member>
+        <member name="F:com.hzins.channel.api.model.info.SettlementBillDetailInfo.state">
+            结算状态(0未结算，1表示已结算)
+        </member>
+        <member name="T:com.hzins.channel.api.model.info.SettlementDetailInfo">
+            <p>
+            服务费明细信息
+            </p>
+        </member>
+        <member name="T:com.hzins.channel.api.model.PlanDetail">
+            <p>
+            
+            
+            
+            </p>
+        </member>
+        <member name="T:com.hzins.channel.api.model.PrePayParam">
+            <p>
+            
+            </p>
+        </member>
+        <member name="T:com.hzins.channel.api.model.req.ApiPartnerInsureReq">
+            <p>
+            
+            
+            
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.ApiPartnerInsureReq.insureNum">
+            投保单号
+        </member>
+        <member name="T:com.hzins.channel.api.model.req.AppPrePayReq">
+            <p>
+            支付接口请求对象
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.AppPrePayReq.orderNum">
+             投保单号
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.AppPrePayReq.payGatewayId">
+             1 支付宝,21 微信充值
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.AppPrePayReq.bankId">
+             银行编号，目前只支持微信和支付宝支付，暂时此字段不对外开放
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.AppPrePayReq.appTypeId">
+             安卓3 ios 6
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.AppPrePayReq.ip">
+             IP地址
+        </member>
+        <member name="T:com.hzins.channel.api.model.req.BaseReq">
+            <p>
+            第三方请求基础类
+            </p>
+        </member>
+        <member name="T:com.hzins.channel.api.model.req.CarInsureDetailReq">
+            <p>
+            
+            
+            
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.CarInsureDetailReq.insureNum">
+            投保单号
+        </member>
+        <member name="T:com.hzins.channel.api.model.req.CarPreInsureReq">
+            <p>
+            
+            
+            车险预投保请求
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.CarPreInsureReq.platform">
+             平台标识
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.CarPreInsureReq.partnerUniqueKey">
+             渠道唯一用户标识
+        </member>
+        <member name="T:com.hzins.channel.api.model.req.CarPrePayReq">
+            <p>
+            
+            
+            
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.CarPrePayReq.platform">
+             平台标识
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.CarPrePayReq.insureNum">
+             投保单号
+        </member>
+        <member name="T:com.hzins.channel.api.model.req.CoreBaseReq">
+            <p>
+            
+            核心请求基类，排除sign
+            
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.CoreBaseReq.transNo">
+             交易流水号，每一单请求交易不能相同
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.CoreBaseReq.partnerId">
+             代理商编号
+        </member>
+        <member name="T:com.hzins.channel.api.model.req.CpsPayReq">
+            <p>
+            
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.CpsPayReq.orderNum">
+             投保单号，不是订单号
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.CpsPayReq.platformType">
+             普通类型，0为Pc.1为H5
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.CpsPayReq.backUrl">
+             支付成功之后返回链接(如果是cps支付，需填写，用户能有更好的体验)
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.CpsPayReq.insureNum">
+             投保单号，兼容orderNum，为了统一，以后客户统一使用InsureNum
+        </member>
+        <member name="T:com.hzins.channel.api.model.req.CpsPreInsureReq">
+            <p>
+            
+            
+            
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.CpsPreInsureReq.applicantInfo">
+             投保人信息
+        </member>
+        <member name="T:com.hzins.channel.api.model.req.IncomeDetailReq">
+            <p>
+            结算前每月汇总查询请求参数
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.IncomeDetailReq.userIds">
+             渠道唯一的标识
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.IncomeDetailReq.year">
+             年份
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.IncomeDetailReq.month">
+             月份
+        </member>
+        <member name="T:com.hzins.channel.api.model.req.InsureDetailReq">
+            <p>
+            
+            
+            
+            </p>
+        </member>
+        <member name="T:com.hzins.channel.api.model.req.InsureDownloadReq">
+            <p>
+            保单下载
+            </p>
+        </member>
+        <member name="T:com.hzins.channel.api.model.req.OrderApplyReq">
+            <p>
+            第三方投保对接投保请求消息
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.OrderApplyReq.caseCode">
+             方案代码，每一款保险公司的方案代码都不相同，由慧择分配
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.OrderApplyReq.applicationData">
+             订单数据
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.OrderApplyReq.applicantInfo">
+             投保人信息
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.OrderApplyReq.insurantInfos">
+             被保人信息
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.OrderApplyReq.extendInfo">
+             扩展信息
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.OrderApplyReq.healthInfo">
+             寿险健康险专用实体
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.OrderApplyReq.insureBenfInfos">
+             寿险投保受益人实体类
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.OrderApplyReq.calculatePriceDataInfo">
+             寿险健康险需加入的试算实体类
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.OrderApplyReq.insureType">
+             投保类型 默认为0， 1：节假日不投保 2：节假日投保 3：一年一次 4：一年多次
+        </member>
+        <member name="T:com.hzins.channel.api.model.req.OrderCancelReq">
+            <p>
+            退保请求消息
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.OrderCancelReq.extendInfo">
+             扩展信息
+        </member>
+        <member name="T:com.hzins.channel.api.model.req.OrderDetailReq">
+            <p>
+            
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.OrderDetailReq.idCard">
+             投保人证件号
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.OrderDetailReq.email">
+             投保人邮箱
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.OrderDetailReq.pageNum">
+             当前页
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.OrderDetailReq.pageSize">
+             每页显示数据
+        </member>
+        <member name="T:com.hzins.channel.api.model.req.OrderSearchReq">
+            <p>
+            
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.OrderSearchReq.pageNum">
+             当前页
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.OrderSearchReq.pageSize">
+             每页显示数据
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.OrderSearchReq.startTime">
+             投保开始时间
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.OrderSearchReq.endTime">
+             投保结束时间
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.OrderSearchReq.applicant">
+             投保人姓名
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.OrderSearchReq.insurant">
+             被保险人姓名
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.OrderSearchReq.idCard">
+             投保人证件号码
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.OrderSearchReq.insureNums">
+             多个投保单号
+        </member>
+        <member name="T:com.hzins.channel.api.model.req.PrePayReq">
+            <p>
+            支付接口请求对象
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.PrePayReq.caseCode">
+             方案代码
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.PrePayReq.orderNum">
+             投保单号
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.PrePayReq.onliePaymnetId">
+             在线支付网关标识，1：支付宝；3：银联；12：易宝在线；13：易宝无卡支付；14：财付通；15：手机支付；16：银联(B2B)；21：微信支付
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.PrePayReq.bankId">
+             银行标识，当值大于0时，会直接跳转到相应的银行页面
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.PrePayReq.pageNoticeUrl">
+             页面返回地址
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.PrePayReq.price">
+             支付金额（单位：元）
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.PrePayReq.insureNum">
+             投保单号，兼容orderNum
+        </member>
+        <member name="T:com.hzins.channel.api.model.req.ProductDetailReq">
+            <p>
+            产品详情请求信息
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.ProductDetailReq.productId">
+             产品ID
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.ProductDetailReq.planId">
+             产品计划Id
+        </member>
+        <member name="T:com.hzins.channel.api.model.req.ProductListReq">
+            <p>
+            产品详情请求信息
+            </p>
+        </member>
+        <member name="T:com.hzins.channel.api.model.req.RegisterReq">
+            <p>
+            
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.RegisterReq.channelType">
+             渠道类型 0：个人 1：公司 (必填)
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.RegisterReq.webType">
+             1:户外=1 2:旅行社 3:签证机构 4:旅游网站 0:其他(必填)
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.RegisterReq.email">
+             邮箱
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.RegisterReq.loginPassWord">
+             登陆密码
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.RegisterReq.contactName">
+             联系人 必填
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.RegisterReq.contactNumber">
+             联系电话 必填
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.RegisterReq.feetemplateId">
+             渠道服务费模板Id(非必填)
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.RegisterReq.expandEmployeeName">
+             拓展人员名字
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.RegisterReq.expandEmployeeId">
+             拓展人员ID
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.RegisterReq.companyCode">
+             公司代码
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.RegisterReq.companyName">
+             公司名称
+        </member>
+        <member name="T:com.hzins.channel.api.model.req.SettlementBillDetailReq">
+            <p>
+            结算申请请求信息
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.SettlementBillDetailReq.billId">
+             申请服务费结算之后的settlementBill数据的Id
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.SettlementBillDetailReq.startTime">
+             查询的申请结算开始时间
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.SettlementBillDetailReq.endTime">
+             查询的申请结算结束时间
+        </member>
+        <member name="T:com.hzins.channel.api.model.req.SettlementBillTotalReq">
+            <p>
+            结算申请请求信息
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.SettlementBillTotalReq.startTime">
+             查询的申请结算开始时间
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.SettlementBillTotalReq.endTime">
+             查询的申请结算结束时间
+        </member>
+        <member name="T:com.hzins.channel.api.model.req.SettlementDetailReq">
+            <p>
+            服务费明细请求信息
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.SettlementDetailReq.insureNums">
+             投保单号(多个以英文逗号隔开)
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.SettlementDetailReq.startTime">
+             查询开始时间
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.SettlementDetailReq.endTime">
+             查询结束时间
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.SettlementDetailReq.pageNum">
+             查询页数
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.SettlementDetailReq.pageSize">
+             每页数量
+        </member>
+        <member name="T:com.hzins.channel.api.model.req.SettlementReq">
+            <p>
+            服务费结算请求实体
+            </p>
+        </member>
+        <member name="T:com.hzins.channel.api.model.req.SubUserBaseReq">
+            <p>
+            
+            子帐号
+            
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.req.SubUserBaseReq.userId">
+             如果是代理商模式，需要传此ID（代理商下级用户Id）
+        </member>
+        <member name="T:com.hzins.channel.api.model.resp.ApiPartnerInsureResp">
+            <p>
+            
+            
+            
+            </p>
+        </member>
+        <member name="T:com.hzins.channel.api.model.resp.AppPrePayResp">
+            <p>
+            支付接口返回参数
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.AppPrePayResp.orderNum">
+             投保单号
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.AppPrePayResp.gatewayData">
+             调用支付的参数串
+        </member>
+        <member name="T:com.hzins.channel.api.model.resp.BaseResp">
+            <p>
+            返回基础类
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.BaseResp.transNo">
+             交易流水号，每一单请求交易不能相同
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.BaseResp.partnerId">
+             代理商编号
+        </member>
+        <member name="T:com.hzins.channel.api.model.resp.CarInsureDetailResp">
+            <p>
+            
+            
+            
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.CarInsureDetailResp.carInfo">
+            车辆信息
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.CarInsureDetailResp.insure">
+            投保单信息
+        </member>
+        <member name="T:com.hzins.channel.api.model.resp.CarPreInsureResp">
+            <p>
+            
+            车险预投保返回
+            
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.CarPreInsureResp.carInsureEntranceUrl">
+             车险入口
+        </member>
+        <member name="T:com.hzins.channel.api.model.resp.CarPrePayResp">
+            <p>
+            
+            车险预支付返回
+            
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.CarPrePayResp.carPayEntranceUrl">
+             车险支付入口
+        </member>
+        <member name="T:com.hzins.channel.api.model.resp.CpsPayResp">
+            <p>
+            异步投保 在线CPS页面支付
+            返回的实体（含支付链接）
+            </p>
+        </member>
+        <member name="T:com.hzins.channel.api.model.resp.CpsPreInsureResp">
+            <p>
+            
+            
+            
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.CpsPreInsureResp.detailUrl">
+            产品详情地址
+        </member>
+        <member name="T:com.hzins.channel.api.model.resp.IncomeDetailResp">
+            <p>
+            结算申请返回
+            </p>
+        </member>
+        <member name="T:com.hzins.channel.api.model.resp.InsureDetailResp">
+            <p>
+            保单查询返回信息
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.InsureDetailResp.applicantInfo">
+             投保人信息
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.InsureDetailResp.insurantInfos">
+             被保险人信息
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.InsureDetailResp.policyDetailInfo">
+             保单明细
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.InsureDetailResp.contact">
+             紧急联系人
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.InsureDetailResp.contactMob">
+             紧急联系人电话
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.InsureDetailResp.companyName">
+             保险公司名称
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.InsureDetailResp.prodName">
+             产品名称
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.InsureDetailResp.transNo">
+            流水号
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.InsureDetailResp.partnerId">
+            渠道号
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.InsureDetailResp.insureNum">
+            投保单号
+        </member>
+        <member name="T:com.hzins.channel.api.model.resp.InsureDownloadResp">
+            <p>
+            保单下载
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.InsureDownloadResp.fileName">
+             文件名
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.InsureDownloadResp.fileSize">
+             文件大小
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.InsureDownloadResp.contentType">
+             类型
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.InsureDownloadResp.data">
+             文件流
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.InsureDownloadResp.transNo">
+            流水号
+        </member>
+        <member name="T:com.hzins.channel.api.model.resp.OrderApplyResp">
+            <p>
+            
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.OrderApplyResp.partnerId">
+             代理商信息
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.OrderApplyResp.insureNum">
+             惠择投保单号
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.OrderApplyResp.orderInfos">
+             保单信息
+        </member>
+        <member name="T:com.hzins.channel.api.model.resp.OrderCancelResp">
+            <p>
+            
+            </p>
+        </member>
+        <member name="T:com.hzins.channel.api.model.resp.PayResp">
+            <p>
+            支付接口返回参数
+            </p>
+        </member>
+        <member name="T:com.hzins.channel.api.model.resp.PrePayResp">
+            <p>
+            支付接口返回参数
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.ProductDetailResp.planId">
+                public String introduction;
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:com.hzins.channel.api.model.resp.ProductDetailResp.price" -->
+        <member name="T:com.hzins.channel.api.model.resp.ProductListResp">
+            <p>
+             产品详情返回实体
+            </p>
+        </member>
+        <member name="T:com.hzins.channel.api.model.resp.RegisterResp">
+            <p>
+            
+            
+            
+            </p>
+        </member>
+        <member name="T:com.hzins.channel.api.model.resp.SearchInsureResp">
+            <p>
+            查询保单列表
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.SearchInsureResp.partnerId">
+            代理商编号
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.SearchInsureResp.transNo">
+            交易流水号，每一单请求交易不能相同
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.SearchInsureResp.orderDetailInfos">
+            保单列表
+        </member>
+        <member name="T:com.hzins.channel.api.model.resp.SettlementBillDetailResp">
+            <p>
+            结算申请返回
+            </p>
+        </member>
+        <member name="T:com.hzins.channel.api.model.resp.SettlementBillTotalResp">
+            <p>
+            结算申请返回
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.SettlementBillTotalResp.payed">
+            已结算
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.SettlementBillTotalResp.unPayed">
+            未结算
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.SettlementBillTotalResp.allowPayed">
+            当前可结算(不会根据时间条件查询)
+        </member>
+        <member name="T:com.hzins.channel.api.model.resp.SettlementDetailResp">
+            <p>
+            	服务费明细返回实体
+            </p>
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.SettlementDetailResp.transNo">
+            流水号
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.SettlementDetailResp.partnerId">
+            代理商编号
+        </member>
+        <member name="F:com.hzins.channel.api.model.resp.SettlementDetailResp.settlementDetailList">
+                public int pageIndex;
+            服务费明细信息
+        </member>
+        <member name="T:com.hzins.openapi.client.Configure">
+            <p>
+            
+            
+            
+            </p>
+        </member>
+        <member name="F:com.hzins.openapi.client.Configure.Channel.partnerId">
+            22803
+        </member>
+        <member name="F:com.hzins.openapi.client.Configure.Channel.channelKey">
+            22803^*#%
+        </member>
+        <member name="F:com.hzins.openapi.client.Configure.Request.http_connection_timeout">
+             ms为单位
+        </member>
+        <member name="F:com.hzins.openapi.client.Configure.Request.http_read_timeout">
+             默认为0，系统默认超时时间，根据操作系统而定
+             ms为单位
+        </member>
+        <member name="F:com.hzins.openapi.client.Configure.Request.userAgent">
+             默认为0，系统默认超时时间，根据操作系统而定
+        </member>
+        <member name="T:com.hzins.openapi.client.OpenApiRemoteOperation">
+            <p>
+            
+            远程方法接口声明
+            
+            </p>
+        </member>
+        <member name="M:com.hzins.openapi.client.OpenApiRemoteOperation.productList(com.hzins.channel.api.model.req.ProductListReq@)">
+            <p>
+            
+            产品列表
+            
+            </p>
+        </member>
+        <member name="M:com.hzins.openapi.client.OpenApiRemoteOperation.productDetail(com.hzins.channel.api.model.req.ProductDetailReq@)">
+            <p>
+            
+            产品详情
+            
+            </p>
+        </member>
+        <member name="M:com.hzins.openapi.client.OpenApiRemoteOperation.orderApply(com.hzins.channel.api.model.req.OrderApplyReq@)">
+            <p>
+            
+            投保
+            
+            </p>
+        </member>
+        <member name="M:com.hzins.openapi.client.OpenApiRemoteOperation.orderCancel(com.hzins.channel.api.model.req.OrderCancelReq@)">
+            <p>
+            
+            退保
+            
+            </p>
+        </member>
+        <member name="M:com.hzins.openapi.client.OpenApiRemoteOperation.download(com.hzins.channel.api.model.req.InsureDownloadReq@)">
+            <p>
+            
+            保单下载
+            
+            </p>
+        </member>
+        <member name="M:com.hzins.openapi.client.OpenApiRemoteOperation.cpsPay(com.hzins.channel.api.model.req.CpsPayReq@)">
+            <p>
+            
+            CPS支付
+            
+            </p>
+        </member>
+        <member name="M:com.hzins.openapi.client.OpenApiRemoteOperation.prePay(com.hzins.channel.api.model.req.PrePayReq@)">
+            <p>
+            
+            8.API支付
+            
+            </p>
+        </member>
+        <member name="M:com.hzins.openapi.client.OpenApiRemoteOperation.appPrePay(com.hzins.channel.api.model.req.AppPrePayReq@)">
+            <p>
+            
+            APP支付
+            
+            </p>
+        </member>
+        <member name="M:com.hzins.openapi.client.OpenApiRemoteOperation.register(com.hzins.channel.api.model.req.RegisterReq@)">
+            <p>
+            
+            渠道注册
+            
+            </p>
+        </member>
+        <member name="M:com.hzins.openapi.client.OpenApiRemoteOperation.orderDetail(com.hzins.channel.api.model.req.OrderDetailReq@)">
+            <p>
+            
+            投保单查询
+            
+            </p>
+        </member>
+        <member name="M:com.hzins.openapi.client.OpenApiRemoteOperation.orderSearch(com.hzins.channel.api.model.req.OrderSearchReq@)">
+            <p>
+            
+            批量查询保单（分页）
+            
+            </p>
+        </member>
+        <member name="M:com.hzins.openapi.client.OpenApiRemoteOperation.insureDetail(com.hzins.channel.api.model.req.InsureDetailReq@)">
+            <p>
+            
+            投保单详情
+            
+            </p>
+        </member>
+        <member name="M:com.hzins.openapi.client.OpenApiRemoteOperation.submitSettlement(com.hzins.channel.api.model.req.SettlementReq@)">
+            <p>
+            
+            服务费结算
+            
+            </p>
+        </member>
+        <member name="M:com.hzins.openapi.client.OpenApiRemoteOperation.settlementDetail(com.hzins.channel.api.model.req.SettlementDetailReq@)">
+            <p>
+            
+            服务费明细
+            
+            </p>
+        </member>
+        <member name="M:com.hzins.openapi.client.OpenApiRemoteOperation.settlementBillDetail(com.hzins.channel.api.model.req.SettlementBillDetailReq@)">
+            <p>
+            
+            结算申请明细
+            
+            </p>
+        </member>
+        <member name="M:com.hzins.openapi.client.OpenApiRemoteOperation.settlementBillTotal(com.hzins.channel.api.model.req.SettlementBillTotalReq@)">
+            <p>
+            
+            结算申请汇总
+            
+            </p>
+        </member>
+        <member name="M:com.hzins.openapi.client.OpenApiRemoteOperation.incomeDetail(com.hzins.channel.api.model.req.IncomeDetailReq@)">
+            <p>
+            
+            服务费按月汇总
+            
+            </p>
+        </member>
+        <member name="M:com.hzins.openapi.client.OpenApiRemoteOperation.pay(com.hzins.channel.api.model.req.PrePayReq@)">
+            <p>
+            
+            支付，返回html
+            
+            </p>
+        </member>
+        <member name="M:com.hzins.openapi.client.OpenApiRemoteOperation.carPreInsure(com.hzins.channel.api.model.req.CarPreInsureReq@)">
+            <p>
+            
+            车险预投保
+            
+            </p>
+        </member>
+        <member name="M:com.hzins.openapi.client.OpenApiRemoteOperation.carPrePay(com.hzins.channel.api.model.req.CarPrePayReq@)">
+            <p>
+            
+            车险预支付
+            
+            </p>
+        </member>
+        <member name="M:com.hzins.openapi.client.OpenApiRemoteOperation.carInsureDetail(com.hzins.channel.api.model.req.CarInsureDetailReq@)">
+            <p>
+            
+            车险订单查询
+            
+            </p>
+        </member>
+        <member name="M:com.hzins.openapi.client.OpenApiRemoteOperation.cpsPreInsure(com.hzins.channel.api.model.req.CpsPreInsureReq@)">
+            <p>
+            
+            cps 预投保
+            
+            </p>
+        </member>
+        <member name="M:com.hzins.openapi.client.OpenApiRemoteOperation.partnerInsureDetail(com.hzins.channel.api.model.req.ApiPartnerInsureReq@)">
+            <p>
+            
+            cps投保单详情
+            
+            </p>
+        </member>
+        <member name="T:com.hzins.rpc.client.core.Command">
+            <summary>
+            服务端方法映射
+            </summary>
+        </member>
+        <member name="F:com.hzins.rpc.client.core.Command.command">
+            <summary>
+            服务端方法名
+            </summary>
+        </member>
+        <member name="M:com.hzins.rpc.client.core.Command.#ctor(System.String)">
+            <summary>
+            服务端方法名
+            </summary>
+            <param name="command"></param>
+        </member>
+        <member name="M:com.hzins.rpc.client.core.Proxy.sign(System.String,System.String)">
+            <summary>
+            签名
+            </summary>
+            <param name="api"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="T:com.hzins.rpc.client.core.ProxyFactory">
+            <summary>
+            动态代理工厂
+            </summary>
+        </member>
+        <member name="M:com.hzins.rpc.client.core.ProxyFactory.create``1(System.String)">
+            <summary>
+            动态代理创建
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="serviceBase"></param>
+            <returns></returns>
+        </member>
+        <member name="T:com.hzins.rpc.client.utils.Md5">
+            <summary>
+            md5工具类
+            </summary>
+        </member>
+        <member name="M:com.hzins.rpc.client.utils.Md5.encrypt(System.String)">
+            <summary>
+            md5序列化
+            </summary>
+            <param name="src"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
